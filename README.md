@@ -1,4 +1,4 @@
-Báo cáo kiểm thử hiệu năng bằng JMeter
+**Báo cáo kiểm thử hiệu năng bằng JMeter**
 
 Thông tin sinh viên
 
@@ -8,9 +8,9 @@ MSSV: BIT220248
 
 Website được kiểm thử: https://vnexpress.net
 
-Mô tả kịch bản kiểm thử
+**Mô tả kịch bản kiểm thử**
 
-Kịch bản 1: Cơ bản
+**Kịch bản 1: Cơ bản**
 
 Số lượng người dùng: 18 (10 + 48 % 10 = 18)
 
@@ -18,7 +18,7 @@ Hành vi: Gửi yêu cầu GET đến https://vnexpress.net
 
 Loop Count: 5
 
-Kịch bản 2: Tải nặng
+**Kịch bản 2: Tải nặng**
 
 Số lượng người dùng: 58 (50 + 48 % 20 = 58)
 
@@ -26,7 +26,7 @@ Ramp-up Period: 30 giây
 
 Hành vi: Gửi yêu cầu GET đến https://vnexpress.net và một trang con (https://vnexpress.net/giai-tri)
 
-Kịch bản 3: Tùy chỉnh
+**Kịch bản 3: Tùy chỉnh**
 
 Số lượng người dùng: 23 (20 + 48 % 15 = 23)
 
@@ -34,9 +34,9 @@ Thời gian chạy: 60 giây
 
 Hành vi: Gửi yêu cầu GET đến https://vnexpress.net/the-thao và https://vnexpress.net/kinh-doanh
 
-Kết quả kiểm thử
+**Kết quả kiểm thử**
 
-Kịch bản 1
+**Kịch bản 1**
 
 Response Time trung bình: 100 ms
 
@@ -44,7 +44,7 @@ Throughput: 3.70 requests/giây
 
 Error Rate: 0.00%
 
-Kịch bản 2
+**Kịch bản 2**
 
 Response Time trung bình:
 
@@ -60,7 +60,7 @@ Trang con: 1.95 requests/giây
 
 Error Rate: 0.00%
 
-Kịch bản 3
+**Kịch bản 3**
 
 Response Time trung bình: 124 ms (trung bình 2 trang 2.2 và 2.1)
 
@@ -68,7 +68,7 @@ Throughput: 2.0 requests/giây
 
 Error Rate: 0.00%
 
-Nhận xét
+**Nhận xét**
 
 Website phản hồi ổn định và không có lỗi ở cả ba kịch bản (0.00% Error Rate).
 
